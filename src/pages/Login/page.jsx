@@ -118,6 +118,17 @@ h1 {
         margin: 15px 0;
       }
 
+      /* Target autofilled inputs */
+      input:-webkit-autofill {
+      -webkit-text-fill-color: #9000ff !important;
+      }
+
+      /* On focus (optional, if you want to make it more dynamic) */
+      input:-webkit-autofill:focus {
+        -webkit-text-fill-color: #9000ff !important;
+      }
+
+
       button {
         border-radius: 20px;
         border: 2px solid yellow;
